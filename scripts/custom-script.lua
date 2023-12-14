@@ -19,10 +19,12 @@ function fetchAndOpenURL()
     local result, err = utils.subprocess({args = {"curl", "--tlsv1.2", apiURL}})
     if result.error or result.status ~= 0 then
         mp.msg.error("Failed to fetch URL: " .. (err or ""))
+        openURLInBrowser(mp.get_property("path"))
         return
     end
 
     local url = result.stdout:gsub("\n", "")
+
     openURLInBrowser(url)
 end
 
