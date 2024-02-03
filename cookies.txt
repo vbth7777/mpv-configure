@@ -11,9 +11,9 @@
 .youtube.com	TRUE	/	TRUE	13347034515000000	CONSISTENCY	AKreu9sotFi9EKv7tjTFNcXc8IntIAlmnet2p9Q7pV07Zxd4gZ8Grtnb3QbF0iw02D90XeXvbXdMgmfS2wSABryhPUJ3wz0oId-aa7qVF5AlNIYLn5zdm2qwzBHtRaDCy9PdEduUzofxFx0_eyMWhvg
 .youtube.com	TRUE	/	TRUE	1728427823	__Secure-3PSIDCC	ACA-OxOaXv2GCJPYfrN6XCvBXVu9xOJBc9p3W6E99KclFfvkNo-aIMJ-r_mwAjFTz4EdMjayfvA
 .youtube.com	TRUE	/	TRUE	13336413010483444	DEVICE_INFO	ChxOekl3TURBeU9URXdNekkzTXpNMk9USTRPUT09ENLIrp8GGNLIrp8G
-.youtube.com	TRUE	/	TRUE	0	YSC	5X8NoI4lTIQ
-.youtube.com	TRUE	/	TRUE	1705847971	SAPISID	TPtluiMTTbQ0rQ2A/AkcWzZUz4DQ8cG1oc
-.youtube.com	TRUE	/	TRUE	1705848865	GPS	1
+.youtube.com	TRUE	/	TRUE	1706960452	GPS	1
+.youtube.com	TRUE	/	TRUE	0	YSC	L9DEqugrB2k
+.youtube.com	TRUE	/	TRUE	1706962253	SAPISID	TPtluiMTTbQ0rQ2A/AkcWzZUz4DQ8cG1oc
 chat.openai.com	FALSE	/	TRUE	0	__Host-next-auth.csrf-token	45dee00bedf060fad69b5ae3cd43c28cde35edbee75a9ce436afce5f55d147b8%7C31062637982f33d89cf1a8650684baa7f2a83f25dbde79c743777d862f36bdf6
 chat.openai.com	FALSE	/	TRUE	0	__Secure-next-auth.callback-url	https%3A%2F%2Fchat.openai.com
 chat.openai.com	FALSE	/	TRUE	13347035442412894	__cflb	0H28vVfF4aAyg2hkHEuhVVUPGkAFmYvk7vW1MgZjKaV
