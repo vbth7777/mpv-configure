@@ -2,12 +2,12 @@ local utils = require 'mp.utils'
 
 function openURLInBrowser(url)
     local chromeCommand = "google-chrome-stable"
-    local result, err = utils.subprocess({args = {"pgrep", "-x", "google-chrome-beta"}})
+    local result, err = utils.subprocess({args = {"pgrep", "-x", "google-chrome-stable"}})
     if result.error or result.status ~= 0 then
-        mp.msg.error("Failed to check if google-chrome-beta is running: " .. (err or ""))
+        mp.msg.error("Failed to check if google-chrome-stable is running: " .. (err or ""))
     else
         if result.stdout ~= "" then
-            chromeCommand = "google-chrome-beta"
+            chromeCommand = "google-chrome-stable"
         end
     end
     local profileDirectory = "Profile 1"
@@ -15,9 +15,9 @@ function openURLInBrowser(url)
     local result = utils.subprocess({args = args})
 
     if result.error == nil then
-        mp.osd_message("Google Chrome Beta launched successfully")
+        mp.osd_message("Google Chrome stable launched successfully")
     else
-        mp.osd_message("Failed to launch Google Chrome Beta")
+        mp.osd_message("Failed to launch Google Chrome stable")
     end
 end
 
