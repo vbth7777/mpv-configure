@@ -10,7 +10,7 @@ function openURLInBrowser(url)
             chromeCommand = "google-chrome-stable"
         end
     end
-    local profileDirectory = "Profile 1"
+    local profileDirectory = "Default"
     local args = {chromeCommand, "--profile-directory=" .. profileDirectory, url}
     local result = utils.subprocess({args = args})
 
