@@ -12,4 +12,4 @@ function reload()
 	end
 end
 
-mp.add_key_binding("ctrl+q", "Reload", reload)
+mp.add_key_binding(nil, "reload", reload)
